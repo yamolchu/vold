@@ -11,7 +11,6 @@ const csvWriter = createCsvWriter({
   path: './result.csv',
   header: [
     { id: 'email', title: 'Email' },
-    { id: 'password', title: 'Password' },
     { id: 'proxy', title: 'Proxy' },
   ],
   append: true,
